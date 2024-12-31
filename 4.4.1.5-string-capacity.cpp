@@ -17,5 +17,11 @@ int main() {
 	str += "12345";
 	print_str(str);
     }
+    str.reserve(500);
+    print_str(str);
+
+    str.reserve(0);
+    print_str(str);
+
     return 0;
 }
